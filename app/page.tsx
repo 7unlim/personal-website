@@ -78,7 +78,7 @@ export default function Home() {
                 Hey, I&apos;m <span className={`${
                   isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                 } ${mynerve.className} px-1.5 py-0.5 rounded`}>Jun</span>, nice to meet you!
-              </h2>
+              </h2> 
 
               <p>
                 I&apos;m currently a <span className={`${
