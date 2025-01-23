@@ -75,10 +75,22 @@ export default function Home() {
           <section className="space-y-8">
             <div className="space-y-6">
               <h2 className="text-2xl">
-                Hey, I'm <span className={`${
+                Hey, I&apos;m <span className={`${
                   isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                 } ${mynerve.className} px-1.5 py-0.5 rounded`}>Jun</span>, nice to meet you!
               </h2>
+
+              <p>
+                I&apos;m currently a <span className={`${
+                    isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}>Computer Science</span>and 
+                  <span className={`${
+                    isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}>Statistics</span>major at the 
+                  <span className={`${
+                    isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}>University of Illinois Urbana-Champaign</span>.
+              </p>
               
               <div className="space-y-4 text-base">
                 <p>
@@ -96,7 +108,7 @@ export default function Home() {
                 <p>
                   <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
-                  } ${mynerve.className} px-1.5 py-0.5 rounded`}><strong>2</strong></span> I'm captivated by financial<span className={`${
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}><strong>2</strong></span> I&apos;m captivated by financial<span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                   } ${mynerve.className} px-1.5 py-0.5 rounded`}>market microstructure</span>, 
                   <span className={`${
@@ -109,7 +121,7 @@ export default function Home() {
                 <p>
                   <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
-                  } ${mynerve.className} px-1.5 py-0.5 rounded`}><strong>3</strong></span> When I'm not coding, I enjoy exploring <span className={`${
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}><strong>3</strong></span> When I&apos;m not coding, I enjoy exploring <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                   } ${mynerve.className} px-1.5 py-0.5 rounded`}>probability theory</span>, playing 
                   <span className={`${
@@ -122,7 +134,7 @@ export default function Home() {
                 
                 <br></br>
                 <p>
-                  Currently, I'm studying 
+                  Currently, I&apos;m studying 
                   <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                   } ${mynerve.className} px-1.5 py-0.5 rounded`}>machine learning</span>, 
@@ -132,7 +144,7 @@ export default function Home() {
                   } ${mynerve.className} px-1.5 py-0.5 rounded`}>supervised</span>and 
                   <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
-                  } ${mynerve.className} px-1.5 py-0.5 rounded`}>unsupervised</span>. Specifically, I'm focused on learning the 
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}>unsupervised</span>. Specifically, I&apos;m focused on learning the 
                   <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                   } ${mynerve.className} px-1.5 py-0.5 rounded`}>intuition</span> that lies behind it, from the 
