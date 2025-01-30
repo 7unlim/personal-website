@@ -90,6 +90,23 @@ export default function Home() {
                   <span className={`${
                     isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
                   } ${mynerve.className} px-1.5 py-0.5 rounded`}>University of Illinois Urbana-Champaign</span>.
+                This upcoming summer, I&apos;ll be working as a 
+                <span className={`${
+                    isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
+                  } ${mynerve.className} px-1.5 py-0.5 rounded`}>Software Engineering Intern</span>
+                at
+                <Link 
+                    href="https://www.banking.barclaysus.com/index.html" 
+                    className={`relative group inline-block ${
+                      isDarkMode ? 'text-orange-300 bg-orange-300/10' : 'text-orange-500 bg-orange-500/10'
+                    } ${mynerve.className} px-1.5 py-0.5 rounded`}
+                  >
+                    Barclays
+                    <span className={`absolute -bottom-1 left-0 w-0 h-0.5 ${
+                      isDarkMode ? 'bg-orange-300' : 'bg-orange-500'
+                    } transition-all duration-300 group-hover:w-full`}></span>
+                  </Link>.
+                
               </p>
               
               <div className="space-y-4 text-base">
